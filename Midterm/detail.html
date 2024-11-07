@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Detail</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .image-section {
+            width: 100%;
+            height: 300px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTBu5ANBRgivyZBmCtJlII94CDiEv8rB3kEg&s');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content-section {
+            padding: 20px;
+        }
+
+        .room-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .room-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .price {
+            font-size: 24px;
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .amenities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .amenity {
+            background-color: #e0e0e0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #ff5722;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 16px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section"></div>
+        <div class="content-section">
+            <div class="room-title">Family Room</div>
+            <div class="room-details">
+                <div class="price">$120 / night</div>
+                <a href="billFam.html" class="bg-primary text-white px-8 py-3 rounded-full hover:bg-opacity-90 transition">
+                    Book Now
+            </div>
+            <div class="description">
+                Phòng rộng rãi cho gia đình, đủ chỗ cho 4-6 người, có giường lớn, khu vực tiếp khách, TV và phòng tắm riêng.
+            </div>
+            <div class="amenities">
+                <div class="amenity">Free Wi-Fi</div>
+                <div class="amenity">Air Conditioning</div>
+                <div class="amenity">Breakfast Included</div>
+                <div class="amenity">TV</div>
+                <div class="amenity">Mini Bar</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
